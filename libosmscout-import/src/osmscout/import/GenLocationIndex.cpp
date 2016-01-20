@@ -2004,8 +2004,9 @@ namespace osmscout {
     regionIndex.cellWidth=360.0/pow(2.0,REGION_INDEX_LEVEL);
     regionIndex.cellHeight=180.0/pow(2.0,REGION_INDEX_LEVEL);
 
-    IndexRegions(regionTree,
-                 regionIndex);
+    // TODOJORIS
+//    IndexRegions(regionTree,
+//                 regionIndex);
 
     //
     // Getting all nodes of type place=*. We later need an area for these cities.
